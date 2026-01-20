@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+  <title>Portfolio</title>
+</head>
+<body>
+  <!-- Header Design -->
+
+<header class="header">
+  <a href="#" class="logo">Portfolio</a>
+  <i class="fa-solid fa-bars" id="menu-icon"></i>
+  <nav class="navbar">
+    <a href="#home" class="active">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+
+  </nav>
+</header>
+
+  <!-- Home Section Design -->
+
+  <section class="home" id="home">
+    <div class="home-content">
+      <h1>Hi, Myself</h1>
+      <h1>Darshana Patidar</h1>
+      <h3>And I'm a <span class="multiple-text"></span></h3>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex vero inventore maiores quod laboriosam cumque, sed quasi nam modi incidunt error natus quidem voluptates adipisci aliquid similique asperiores </p>
+      <div class="social-media">
+         <a
+                href="https://www.linkedin.com/in/darshana-patidar-72493a295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://github.com/darshu5555" target="_blank"
+                ><i class="fa-brands fa-square-github"></i
+              ></a>   
+              <a
+                href="https://www.instagram.com/darshupatidar____?igsh=aGo1anphbHF2cjBh" target="_blank"
+                ><i class="fa-brands fa-square-instagram"></i
+              ></a>    
+              <a href="https://wa.link/x8smwp" target="_blank"
+                ><i class="fa-brands fa-square-whatsapp"></i
+              ></a>
+
+              
+      </div>
+      <a href="DARSHANA PATIDAR RESUME.pdf" download target="_blank" class="btn">Download CV</a>
+
+    </div>
+    <div class="home-img">
+      <img src="profile2.img.jpeg" alt="">
+    </div>
+  </section>
+
+  <!-- About Section  -->
+  
+  
+  <section id="about" class="about">
+      <div class="container">
+        <div class="row">
+          <div class=" about-img about-col-1">
+            <img src="profile img.jpeg" />
+          </div>
+          <div class=" about-content about-col-2">
+            <h2 class=" heading sub-title ">About <span>Me</span></h2>
+            
+            <p>
+              I'm an enthusiastic Frontend Developer committed to crafting
+              clean, intuitive, and responsive web interfaces. Having a good
+              grasp of HTML, CSS, and JavaScript, and hands-on experience
+              working with contemporary frameworks such as React , I enjoy
+              bringing design ideas to life as interactive digital experiences.
+              I prefer to write code that is maintainable, well-performing, and
+              accessible on devices and platforms alike. Whether coding alone or
+              with teams, I love to turn innovative ideas into reality with
+              functionality and usability at their core. Outside of code, I'm
+              likely to be discovering new UI trends, posting to open-source
+              projects, or learning new tools to remain competitive in the
+              continuously changing web environment.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <!-- <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p> -->
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Core Frontend Developer</span><br />Html5/Semantic Html
+                  , Css, JavaScript, Responsive Web Design.
+                </li>
+                <li>
+                  <span>Frontend Frameworks & Libraries</span><br />React.js , Tailwindcss , Bootstrap
+                </li>
+                <li><span>Tools</span><br />Git/Github , Vs code</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <!-- <li>
+                  <span>2022 - 2025</span><br />
+                </li> -->
+                <li>
+                  <span>2025</span><br />Astral Institute of Professional
+                  Studies,Indore.
+                </li>
+                <li><span>Course</span><br />BBA</li>
+                <li>
+                  <span>Course</span><br />
+                  From DAVV University.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <!-- Services Section -->
+
+
+   <section class="services" id="services">
+    <h2 class="heading">My <span>Services</span></h2>
+    <div class="services-container">
+      <div class="services-box">
+        <i class="fa-solid fa-code"></i>
+        <h3>Frontend Web Development</h3>
+        <p>I build modern, interactive websites using HTML, CSS, JavaScript, and React, focusing on clean code and smooth user experience.</p>
+        <a href="" class="btn">Read More</a>
+      </div>
+      <div class="services-box">
+                <i class="fa-solid fa-palette"></i>
+
+        <h3>UI / UX Development</h3>
+        <p>I create clean and user-friendly interfaces with intuitive layouts that improve usability, engagement,and overall user experience.</p>
+        <a href="" class="btn">Read More</a>
+      </div>
+      <div class="services-box">
+<i class="fa-solid fa-desktop"></i>
+        <h3>Responsive Web Design </h3>
+        <p>I design fully responsive layouts that adapt perfectly to mobile, tablet, and desktop screens, ensuring consistency, usability, and visual clarity.</p>
+        <a href="" class="btn">Read More</a>
+      </div>
+    </div>
+   </section>
+
+   <!-- portfolio section  -->
+
+   <section class="portfolio" id="portfolio">
+    <h2 class="heading">Latest <span>Projects</span></h2>
+    <div class="portfolio-container">
+      <div class="portfolio-box">
+        <img src="1.jpg" alt="">
+        <div class="portfolio-layer">
+          <h4>Web Design</h4>
+          <p>Designed a responsive and user-friendly website layout using HTML, CSS, and basic JavaScript, focusing on clean UI, proper alignment, and mobile-friendly design.</p>
+            <a href="https://darshu5555.github.io/Bakery-Website/" target="_blank">
+
+          <i class="fa-solid fa-up-right-from-square"  ></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+        <img src="2.jpg" alt="">
+        <div class="portfolio-layer">
+          <h4>TODo List </h4>
+          <p>Built a simple React To-Do application to add and delete daily tasks. Used React Hooks for state management and created a clean, responsive user interface for better task organization.</p>
+          <a href="https://darshu5555.github.io/React-TODO-LIST/">
+          <i class="fa-solid fa-up-right-from-square"></i>
+        </a>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+        <img src="3.jpg" alt="">
+        <div class="portfolio-layer">
+          <h4>Web Design</h4>
+          <p>Built a responsive password generator using React.js that creates strong random passwords with options for uppercase, lowercase, numbers, and symbols. Used React Hooks for state management and deployed the app on GitHub Pages.</p>
+          <a href="https://darshu5555.github.io/Password_Genrator/">
+          <i class="fa-solid fa-up-right-from-square"></i>
+          </a>
+        </div>
+      </div>
+
+
+      
+    </div>
+   </section>
+
+   <!-- Contact Section -->
+
+   <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me</span></h2>
+
+    <form action="https://formsubmit.co/darshanapatidar123@gmail.com" method="POST">
+
+      <div class="input-box">
+        <input type="text" name="name"placeholder="Full Name">
+        <input type="email" name="email" placeholder="Email Address">
+      </div>
+      <div class="input-box">
+        <input type="number" name="phone" placeholder="Mobile Number">
+        <input type="text" placeholder="Email Subject">
+      </div>
+      <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+      <input type="submit" value="Send Message" class="btn">
+    </form>
+   </section>
+
+   <!-- footer Section -->
+
+<footer class="footer">
+  <div class="footer-text">
+    <p>Copyright &copy; 2025 by @darshanapatidar | All Rights Reserved.</p>
+  </div>
+<div class="footer-iconTop">
+  <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+</div>
+</footer>
+
+<!-- scroll reveal script  -->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<!-- *** Typed js**** -->
+ <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+  <script src="main.js"></script>
+</body>
+</html>
