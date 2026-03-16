@@ -333,6 +333,7 @@ box-shadow: 0 0 1rem var(--main-color);
 
 .portfolio-box img{
   width: 100%;
+  
   transition: .5s ease;
   opacity:  0.7;
 }
